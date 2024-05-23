@@ -2,9 +2,9 @@
   "name": "html-css",
   "version": "1.0.0",
   "description": "A template for HTML and CSS",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
-    "start": "serve"
+    "start": "parcel index.html"
   },
   "keywords": [
     "html",
@@ -13,9 +13,11 @@
   "author": "Ives van Hoorne",
   "license": "MIT",
   "devDependencies": {
+    "process": "^0.11.10",
     "serve": "11.2.0"
   },
   "dependencies": {
+    "parcel": "^2.12.0",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   }
